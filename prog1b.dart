@@ -8,8 +8,11 @@ var firstName = "John";
 var lastName = "Doe";
 print("Full name is $firstName $lastName");
 
-int num1 = 10; 
-int num2 = 3; 
+print("Enter the first number:");
+int num1 = int.parse(stdin.readLineSync()!);
+
+print("Enter the second number:");
+int num2 = int.parse(stdin.readLineSync()!);
 
 int sum = num1 + num2;
 int diff = num1 - num2;
